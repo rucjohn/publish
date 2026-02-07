@@ -79,7 +79,7 @@ data:
   default-setting.yaml: |-
     priority-class: "longhorn-critical"
     disable-revision-counter: "{\"v1\":\"true\"}"
-    default-data-path: "/longhorn"
+    default-data-path: "/data/longhorn_data/data"
     replica-soft-anti-affinity: "true"
     replica-zone-soft-anti-affinity: "true"
     replica-auto-balance: "best-effort"
